@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a deterministic synthetic IIoT-like stream for code validation only."""
+
 from pathlib import Path
 import argparse
 import numpy as np
