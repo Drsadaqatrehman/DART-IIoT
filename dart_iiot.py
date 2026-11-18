@@ -12,7 +12,7 @@ Implements:
 - class-conditional conformal rejection
 - evidence-level ablations and deployment profiling
 
-The code intentionally does not contain benchmark numbers. Results are generated
+Results are generated
 only from the supplied dataset at runtime.
 """
 from __future__ import annotations
