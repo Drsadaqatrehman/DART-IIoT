@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 """Run DART-IIoT and matched baselines on UNSW-NB15 and N-BaIoT.
-
-This script never generates or substitutes synthetic data. It expects either:
-  * UNSW_NB15_training-set.csv and UNSW_NB15_testing-set.csv; or
-  * the extracted UCI N-BaIoT directory containing one directory per device.
-
-The implementation uses explicit train/calibration/test partitions, constructs
-windows independently within each source sequence, and evaluates leave-one-
-attack-family-out open-set recognition.
 """
 from __future__ import annotations
 
